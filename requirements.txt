@@ -1,7 +1,12 @@
-pandas
-numpy
-scikit-learn
-openpyxl
-streamlit
-scikit-fuzzy
-plotly
+# Data Manipulation & Numerical Computing
+pandas>=3.0.0
+numpy>=2.1.0
+openpyxl>=3.2.0  # Required for modern Excel engine support
+
+# Machine Learning & Logic
+scikit-learn>=1.8.0
+scikit-fuzzy>=0.5.0  # Stable release for fuzzy clustering/inference
+
+# Dashboard & Visualization
+streamlit>=1.42.0
+plotly>=6.0.0
